@@ -1,15 +1,14 @@
-
 ### Introduction
 
 This is the second programming assignment, where an R
-function that is able to cache potentially time-consuming computations is given.
+function that is able to cache potentially time-consuming computations is provided.
 
 ### Assignment: Caching the Inverse of a Matrix
 
 Matrix inversion is usually a costly computation and there may be some
 benefit to caching the inverse of a matrix rather than computing it
 repeatedly. In this assignment a pair of functions that
-cache the inverse of a matrix is provided.
+cache the inverse of a matrix is constructed in R.
 
 The two fucntions given:
 
@@ -27,4 +26,4 @@ function in R. For example, if `X` is a square invertible matrix, then
 I assume that the matrix supplied is always invertible.
 
 This is a modified version of the the GitHub repository containing the stub R files at 
-    [https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2) provided by the instructor Dr. Roger Peng.
+    [https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2) provided by the instructor Dr. Roger Peng. 

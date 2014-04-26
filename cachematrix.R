@@ -1,7 +1,7 @@
 # Here we use the `<<-` operator to assign a value to an object 
 # in an environment that is different from the current 
 # environment. Here are two functions, namely 'makeCacheMatrix' 
-# and 'cacheSolve', are used to create a special object that 
+# and 'cacheSolve',  to create a special object that 
 # stores a matrix and caches its inverse.
 
 # This function, `makeCacheMatrix` creates a special "matrix", 
@@ -45,7 +45,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # 'get's the inverse from the cache and skips the computation. 
 # Otherwise, it calculates the inverse of the matrix and sets 
 # the value of the inverse in the cache via the 'setinverse' 
-# function.
+# function. 
 
 
 cacheSolve <- function(x, ...) {
