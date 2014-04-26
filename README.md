@@ -1,7 +1,3 @@
-ProAss2
-=======
-
-Coursera:rprog-002:Programming Assignment 2
 
 ### Introduction
 
